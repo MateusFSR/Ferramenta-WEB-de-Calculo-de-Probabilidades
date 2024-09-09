@@ -1,0 +1,140 @@
+body {
+    background-color: #001a00; /* Verde escuro */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#listaNumeros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    margin-right: 20px;
+}
+
+#listaNumeros div {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+.cor-verde {
+    background-color: green;
+}
+
+.cor-vermelho {
+    background-color: red;
+}
+
+.cor-preto {
+    background-color: black;
+}
+
+.cor-branca {
+    background-color: white;
+}
+
+#tabelaCores {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#tabelaCores td {
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    vertical-align: middle; /* Garante o alinhamento vertical do texto */
+    padding: 0; /* Remove padding interno para garantir alinhamento */
+}
+
+.topo-0 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#numeroInput {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #004d00; /* Bordas em verde escuro */
+    border-radius: 4px;
+    background-color: #002200; /* Fundo em verde muito escuro */
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #004d00; /* Verde escuro */
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003300; /* Verde mais escuro para efeito de hover */
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #006400; /* Verde escuro para a borda */
+    border-radius: 8px;
+    background-color: #002800; /* Verde ainda mais escuro para o fundo */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#resultado h2 {
+    color: #cc9900; /* Cor de destaque para títulos */
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#resultado p {
+    margin: 5px 0;
+}
+
+#resultado .item {
+    background-color: #004d00; /* Verde escuro */
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+#resultado .acao {
+    background-color: #cc9900; /* Cor de destaque */
+    color: black; /* Texto preto para contraste */
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cor-destaque {
+    background-color: #cc9900; /* Cor de destaque */
+    color: black; /* Texto preto para contraste */
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    display: inline-block; /* Garante que o tamanho da caixa de destaque não afete o tamanho da fonte */
+    line-height: 40px; /* Alinha verticalmente o texto */
+    height: 40px; /* Garante que a altura da célula seja consistente */
+    width: 40px; /* Garante que a largura da célula seja consistente */
+}

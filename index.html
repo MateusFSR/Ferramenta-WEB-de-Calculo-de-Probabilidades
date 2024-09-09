@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Calculate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./icon.ico" type="image/png/icon">
+</head>
+<body>
+    <div id="container">
+        <div id="listaNumeros">
+            <!-- Lista de números será preenchida aqui -->
+        </div>
+
+        <div>
+            <input type="number" id="numeroInput" min="0" max="36" placeholder="Digite um número">
+            <button onclick="adicionarNumero()">Adicionar</button>
+            <button onclick="corrigirUltimaEntrada()">Corrigir Última Entrada</button>
+            <button onclick="resetarContagem()">Resetar Contagem</button>
+            <div id="resultado">
+                <!-- Resultados serão exibidos aqui -->
+            </div>
+        </div>
+
+        <table id="tabelaCores">
+            <tbody>
+                <!-- Tabela de cores será preenchida aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
