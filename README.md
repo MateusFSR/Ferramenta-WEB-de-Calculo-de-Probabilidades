@@ -6,15 +6,15 @@ Este aplicativo web foi desenvolvido para oferecer uma análise detalhada de pro
 
 📑 Principais características:
 
-Monitoramento de Ocorrências: O sistema mantém um histórico dos últimos números sorteados, limitado a 50 entradas, para calcular a frequência e distribuição dos números nas três colunas da roleta.
+-Monitoramento de Ocorrências: O sistema mantém um histórico dos últimos números sorteados, limitado a 50 entradas, para calcular a frequência e distribuição dos números nas três colunas da roleta.
 
-Cálculo de Percentuais: Com base nos números sorteados, o aplicativo calcula a porcentagem de ocorrências de cada coluna (1C, 2C e 3C), indicando a frequência relativa de cada coluna.
+-Cálculo de Percentuais: Com base nos números sorteados, o aplicativo calcula a porcentagem de ocorrências de cada coluna (1C, 2C e 3C), indicando a frequência relativa de cada coluna.
 
-Classificação de Probabilidades: A cada número inserido, o sistema determina a coluna correspondente e classifica a probabilidade de uma ação como "fraca", "média" ou "alta", permitindo que o usuário compreenda a força da tendência atual.
+-Classificação de Probabilidades: A cada número inserido, o sistema determina a coluna correspondente e classifica a probabilidade de uma ação como "fraca", "média" ou "alta", permitindo que o usuário compreenda a força da tendência atual.
 
-Sugestões de Ação Estratégica: Quando a probabilidade em uma coluna é baixa, o sistema recomenda alternativas com maior percentual, direcionando o usuário para colunas com melhor desempenho.
+-Sugestões de Ação Estratégica: Quando a probabilidade em uma coluna é baixa, o sistema recomenda alternativas com maior percentual, direcionando o usuário para colunas com melhor desempenho.
 
-Interface Interativa e Responsiva: O usuário pode inserir números manualmente e visualizar o histórico em uma tabela interativa que destaca o último número inserido, com a cor correspondente (verde, vermelho, ou preto) para facilitar a visualização.
+-Interface Interativa e Responsiva: O usuário pode inserir números manualmente e visualizar o histórico em uma tabela interativa que destaca o último número inserido, com a cor correspondente (verde, vermelho, ou preto) para facilitar a visualização.
 
 ✅ Fluxo de Operação
 
